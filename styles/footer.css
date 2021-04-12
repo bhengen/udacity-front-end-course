@@ -1,0 +1,9 @@
+.footer {
+    grid-area: ft;
+    background-color: #606c76;
+}
+
+.blog_footer {
+    grid-area: ft;
+    background-color: #606c76;
+}

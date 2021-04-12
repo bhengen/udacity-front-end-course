@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #faffff;
+}
+
+.container {
+    display: grid;
+    width: 70vw;
+    height: auto;
+    margin-top: 150px;
+    margin: auto;
+    grid-template-columns: 15% 1fr;
+    grid-template-rows: 100px 55px 450px 40px;
+    grid-template-areas: 
+        "hd hd"
+        "nav nav"
+        "main main"
+        "ft ft";
+}
+
+.header {
+    display: flex;
+    grid-area: hd;
+    background-color: #778899;
+    color: aliceblue;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 15px;
+    justify-content: center;
+}
+
+.nav {
+    display: inline-flex;
+    flex-wrap: wrap;
+    grid-area: nav;
+    padding-top: 0;
+    background-color: gray;
+}
+
+.content {
+    display: inline-block;
+    padding: 5px;
+    grid-area: main;
+    justify-content: flex-start;
+    background-color: #dcdcdc;
+    background-image: url("../images/clarisaNebula.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.box {
+    overflow: auto;
+    border: 1px solid #778899;
+}
+
+footer {
+    display: flex;
+    grid-area: ft;
+    border: 1px solid #778899;
+    background-color: #778899;
+}
+
+div img {
+    padding: 5px;
+}
+
+button {
+    margin: 1px;
+    width: 200px;
+    font-size: 20px;
+    color: black;
+    border: none;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+a, a:active, :visited {
+    text-decoration: none;
+    color: #778899;
+}
+
+a:hover {
+    color: black;
+}
+
+.button1 {
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    border: none;
+}
+
+.button2 {
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    border: none;
+}
+
+.button3 {
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    border: none;
+}
